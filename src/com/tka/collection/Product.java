@@ -1,4 +1,4 @@
-package com.tka.colle2;
+package com.tka.collection;
 
 public class Product {
 	private int productid;

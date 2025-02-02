@@ -1,4 +1,4 @@
-package com.tka.colle2;
+package com.tka.collection;
 
 import java.util.Scanner;
 
@@ -7,25 +7,24 @@ public class ProductUtility {
 	public static Product prepareProduct() {
 
 		System.out.println("Enter Product Id");
-		int id=scanner.nextInt();
+		int productid=scanner.nextInt();
 
 		System.out.println("Enter The Name");
-		String name=scanner.next();
+		String productname=scanner.next();
 
 		System.out.println("Enter the Qty");
-		int Quentity=scanner.nextInt();
+		int productQuentity=scanner.nextInt();
 
 		System.out.println("Enter the Price");
-		double price=scanner.nextDouble();
+		double productprice=scanner.nextDouble();
 
 		System.out.println("Enter the Productdate");
-		String Price=scanner.next();
+		String productdate=scanner.next();
 
 		System.out.println("Enter The Exdate");
-		String Exdate=scanner.next();
+		String productexpdate=scanner.next();
 
-		Product product=new Product(id, name, id, price, Exdate, Exdate);
-
+Product product=new Product(productid, productname, productQuentity, productprice, productdate, productexpdate);
 		return product;
 
 	}
