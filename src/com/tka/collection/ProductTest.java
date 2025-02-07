@@ -35,7 +35,7 @@ public class ProductTest {
 			
 			
 			case 3: {
-				Object obj=operation.getAllProject();
+				Object obj=operation.getAllProduct();
 				System.out.println(obj);
 				break;
 

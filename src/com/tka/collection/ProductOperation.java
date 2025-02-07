@@ -20,7 +20,7 @@ public class ProductOperation {
 		
 	}
 	
-	public Object getAllProject() {
+	public Object getAllProduct() {
 		try {
 			if(list.isEmpty()) {
 				return "Produt not exists in list";
