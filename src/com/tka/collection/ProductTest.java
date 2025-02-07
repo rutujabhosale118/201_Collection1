@@ -22,7 +22,7 @@ public class ProductTest {
 				Product product=ProductUtility.prepareProduct();
 				String msg = operation.addProduct(product);
          		System.out.println(msg);
-//				System.out.println("pressed 1");
+
 				
 				break;
 			}
