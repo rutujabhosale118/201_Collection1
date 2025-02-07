@@ -22,7 +22,7 @@ public class ProductTest {
 				Product product=ProductUtility.prepareProduct();
 				String msg = operation.addProduct(product);
          		System.out.println(msg);
-//				System.out.println("pressed 1");
+
 				
 				break;
 			}
@@ -35,7 +35,7 @@ public class ProductTest {
 			
 			
 			case 3: {
-				Object obj=operation.getAllProject();
+				Object obj=operation.getAllProduct();
 				System.out.println(obj);
 				break;
 

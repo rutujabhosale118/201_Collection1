@@ -8,12 +8,19 @@ public class ProductOperation {
 	
 	
 	public String addProduct(Product product) {
+		
+		for (Product dbProduct : list) {
+			if(dbProduct.getProductName().equalsIgnoreCase(product.getProductName())) {
+				return "Product already exists";
+			}
+			
+		}
 		list.add(product);
 		return "Product Added Successfully !";
 		
 	}
 	
-	public Object getAllProject() {
+	public Object getAllProduct() {
 		try {
 			if(list.isEmpty()) {
 				return "Produt not exists in list";
