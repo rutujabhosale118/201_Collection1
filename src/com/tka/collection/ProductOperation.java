@@ -33,7 +33,9 @@ public class ProductOperation {
 			return "Something Went Wrong";
 		}
 		
-		
+		finally {
+			System.out.println("Hello");
+		}
 	}
 		
 }
